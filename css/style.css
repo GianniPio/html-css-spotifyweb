@@ -33,6 +33,23 @@ li {
     width: 100%;
 }
 
+#aside_left ul {
+    list-style-type: none;
+}
+
+#aside_left ul li span {
+    font-size: 13px;
+}
+
+#aside_left ul li img{
+    width: 22px;
+    height: 22px;
+}
+
+.selected {
+    border-left: 3px solid #adff2f;
+}
+
 
 /* Tag aside di destra */
 
