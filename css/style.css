@@ -1,6 +1,63 @@
+/* tag generali */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Tag generali container */
+
+#container {
+    height: calc(100vh - 80px);
+    display: flex;
+}
+
+/* Tag aside di sinistra  */
+
+#aside_left {
+    height: 100%;
+    width: 150px;
+    background: #000;
+}
+
+/* Tag aside di destra */
+
+#aside_right {
+    height: 100%;
+    width: calc(100% - 150px);
+    background-color:#141922;
+    overflow: auto;
+}
+
+/* Tag del nav */
+
+#above {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+/* Tag del main principale */
+
+#center {
+    height: calc(100% - 80px);
+}
+
+
+
+
+
+
+
+
+
+/* Tag geneali footer */
+
+#footer {
+    height: 80px;
+    background-color: #282828;
 }
