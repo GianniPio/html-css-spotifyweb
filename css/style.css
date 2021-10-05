@@ -7,6 +7,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+li {
+    cursor: pointer;
+}
+
 /* Tag generali container */
 
 #container {
@@ -18,15 +22,23 @@
 
 #aside_left {
     height: 100%;
-    width: 150px;
+    width: 200px;
     background: #000;
+    padding: 20px 50px 0 15px;
+    color: white;
 }
+
+#aside_left .logo {
+    height: 60px;
+    width: 100%;
+}
+
 
 /* Tag aside di destra */
 
 #aside_right {
     height: 100%;
-    width: calc(100% - 150px);
+    width: calc(100% - 200px);
     background-color:#141922;
     overflow: auto;
 }
@@ -35,11 +47,12 @@
 
 #above {
     height: 80px;
+    width: calc(100% - 200px);
+    position: fixed;
     display: flex;
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2;
-    
 }
 
 .upgrade {
