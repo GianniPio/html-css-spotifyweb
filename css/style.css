@@ -7,8 +7,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-li {
+li, .first {
     cursor: pointer;
+}
+
+h4 {
+    color: white;
 }
 
 /* Tag generali container */
@@ -24,21 +28,26 @@ li {
     height: 100%;
     width: 200px;
     background: #000;
-    padding: 20px 50px 0 15px;
-    color: white;
+    padding: 20px 0 0 15px;
+    color: #a3a3a3;
+    font-size: 13px;
+    position: relative;
 }
 
 #aside_left .logo {
     height: 60px;
     width: 100%;
+    padding-right: 50px;
 }
 
-#aside_left ul {
+#aside_left .menu ul li {
     list-style-type: none;
+    margin: 10px 0;
 }
 
 #aside_left ul li span {
-    font-size: 13px;
+    font-family: sans-serif;
+    color: #8e8e8e;
 }
 
 #aside_left ul li img{
@@ -50,6 +59,65 @@ li {
     border-left: 3px solid #adff2f;
 }
 
+.playlist {
+    padding-top: 20px;
+    overflow: auto;
+    font-weight: bold;
+}
+
+.first {
+    margin: 10px 5px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.fa-plus-square {
+    font-size: 40px;
+    margin-right: 10px;
+    color: #a3a3a3;
+}
+
+.playlist .other ul li {
+    margin: 20px 0;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #808080;
+    width: 80%;
+    position: absolute;
+    bottom: 50px;
+    cursor: pointer;
+}
+
+.download img {
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 5px 0;
+    align-self: center;
+}
+
+.account {
+   color: white;
+   width: 90%;
+   height: 30px;
+   display: flex;
+   align-items: center;
+   position: absolute;
+   bottom: 2px;
+   font-size: 13px;
+   font-weight: bolder;
+   cursor: pointer;
+}
+
+.account img {
+    background-color: #808080;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin: 0 5px 5px 0;
+}
 
 /* Tag aside di destra */
 
@@ -69,7 +137,6 @@ li {
     display: flex;
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
 }
 
 .upgrade {
@@ -103,4 +170,5 @@ li {
 #footer {
     height: 80px;
     background-color: #282828;
+    z-index: 10;
 }
