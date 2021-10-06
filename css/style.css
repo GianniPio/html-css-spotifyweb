@@ -39,7 +39,7 @@ a {
 }
 
 #aside_left .logo {
-    height: 60px;
+    height: 6%;
     width: 100%;
     padding-right: 50px;
 }
@@ -47,6 +47,10 @@ a {
 #aside_left .menu ul li {
     list-style-type: none;
     margin: 10px 0;
+}
+
+.menu {
+    height: 11%;
 }
 
 #aside_left ul li span {
@@ -93,6 +97,7 @@ a {
     width: 80%;
     cursor: pointer;
     margin-bottom: 13px;
+    height: 3%;
 }
 
 .download img {
@@ -105,7 +110,7 @@ a {
 .account {
    color: white;
    width: 90%;
-   height: 30px;
+   height: 3%;
    display: flex;
    align-items: center;
    font-size: 13px;
@@ -193,21 +198,27 @@ main {
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap:nowrap;
 }
 
-.music {
+.music, .artist {
     margin: 30px 10px;
     width: calc(100% / 6);
     text-align: center;
 }
-
 
 .list .album .music img {
     width: 100%;
     margin-bottom: 20px;
 }
 
-.list h3 {
+.list .album .artist img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.list h3, .artist h3 {
     color: white;
     font-family: sans-serif;
     font-weight: bold;
