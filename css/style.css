@@ -178,18 +178,18 @@ a {
     border-bottom: 2px solid #adff2f;
 }
 
-#list {
+.list {
     margin: 10px 0;
 }
 
-#list h1 {
+.list h1 {
     font-weight: bold;
     font-size: 30px;
     color: white;
     font-family: sans-serif;
 }
 
-.recently {
+.album {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -197,27 +197,28 @@ a {
 
 .music {
     margin: 30px 10px;
-    width: calc(100% / 5);
+    width: calc(100% / 6);
     text-align: center;
 }
 
 
-#list .recently .music img {
+.list .album .music img {
     width: 100%;
     margin-bottom: 20px;
 }
 
-.music h3 {
+.list h3 {
     color: white;
     font-family: sans-serif;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.music h4 {
+.list h4 {
     color: #808080;
     font-family: sans-serif;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 
