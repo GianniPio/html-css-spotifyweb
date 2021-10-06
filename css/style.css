@@ -266,7 +266,7 @@ main {
     color: #a9a9a9;
 }
 
-.footer-sx .far {
+.footer-sx i, .footer-dx i {
     margin: 0 10px;
     display: flex;
     align-self: center;
@@ -286,6 +286,7 @@ main {
     color: white;
     margin: 15px 15px;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .playback {
@@ -300,17 +301,30 @@ main {
     background-color: #5a5a5a;
     height: 5px;
     width: 400px;
-    margin: 0 15px;
+    margin: 10px 10px;
 }
 
-.bar-playback {
+.bar-playback, .audio {
     background-color: #c1c1c1;
     height: 100%;
     width: 25%;
+}
+
+.bar, .bar-playback, .bar-audio, .audio {
+    border-radius: 20px;
 }
 
 .footer-dx {
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
+
+.bar-audio {
+    background-color: #5a5a5a;
+    height: 5px;
+    width: 100px;
+    margin: 0 15px
+}
+
