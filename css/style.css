@@ -275,14 +275,41 @@ main {
 }
 
 .footer-center {
-    background-color: lawngreen;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.footer-center .icon i {
+    color: white;
+    margin: 15px 15px;
+    font-size: 25px;
+}
+
+.playback {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.bar {
+    background-color: #5a5a5a;
+    height: 5px;
+    width: 400px;
+    margin: 0 15px;
+}
+
+.bar-playback {
+    background-color: #c1c1c1;
+    height: 100%;
+    width: 25%;
 }
 
 .footer-dx {
-    background-color: orange;
     width: 100%;
     display: flex;
     justify-content: flex-end;
