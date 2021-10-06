@@ -196,15 +196,29 @@ a {
 }
 
 .music {
-    border: 1px solid black;
-    margin: 10px 5px;
+    margin: 30px 10px;
     width: calc(100% / 5);
-    height: 180px;
-    background-color: green;
+    text-align: center;
 }
 
 
+#list .recently .music img {
+    width: 100%;
+    margin-bottom: 20px;
+}
 
+.music h3 {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.music h4 {
+    color: #808080;
+    font-family: sans-serif;
+    font-weight: bold;
+}
 
 
 
