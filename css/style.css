@@ -155,7 +155,7 @@ a {
 
 /* Tag del main principale */
 
-#center {
+main {
     height: calc(100% - 80px);
     margin: 80px 20px 0 20px;
 
