@@ -25,6 +25,7 @@ a {
 #container {
     height: calc(100vh - 80px);
     display: flex;
+    overflow: hidden;
 }
 
 /* Tag aside di sinistra  */
@@ -205,6 +206,7 @@ main {
     margin: 30px 10px;
     width: calc(100% / 6);
     text-align: center;
+    cursor: pointer;
 }
 
 .list .album .music img {
@@ -232,13 +234,56 @@ main {
     margin-top: 10px;
 }
 
-
-
-
 /* Tag geneali footer */
 
 #footer {
     height: 80px;
     background-color: #282828;
-    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-sx {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+.footer-sx .text {
+    margin: auto 20px auto 15px;
+    font-size: 12px;
+    align-self: center;
+}
+
+.text h3 {
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.text h4 {
+    color: #a9a9a9;
+}
+
+.footer-sx .far {
+    margin: 0 10px;
+    display: flex;
+    align-self: center;
+    color: #a9a9a9;
+    cursor: pointer;
+}
+
+.footer-center {
+    background-color: lawngreen;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-dx {
+    background-color: orange;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
 }
