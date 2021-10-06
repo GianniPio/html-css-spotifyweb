@@ -31,7 +31,6 @@ h4 {
     padding: 20px 0 0 15px;
     color: #a3a3a3;
     font-size: 13px;
-    position: relative;
 }
 
 #aside_left .logo {
@@ -63,6 +62,7 @@ h4 {
     padding-top: 20px;
     overflow: auto;
     font-weight: bold;
+    min-height: 75%;
 }
 
 .first {
@@ -86,9 +86,8 @@ h4 {
     align-items: center;
     border-bottom: 1px solid #808080;
     width: 80%;
-    position: absolute;
-    bottom: 50px;
     cursor: pointer;
+    margin-bottom: 13px;
 }
 
 .download img {
@@ -104,8 +103,6 @@ h4 {
    height: 30px;
    display: flex;
    align-items: center;
-   position: absolute;
-   bottom: 2px;
    font-size: 13px;
    font-weight: bolder;
    cursor: pointer;
@@ -155,6 +152,7 @@ h4 {
 
 #center {
     height: calc(100% - 80px);
+    margin-top: 80px;
 }
 
 
