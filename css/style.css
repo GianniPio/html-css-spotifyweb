@@ -15,6 +15,11 @@ h4 {
     color: white;
 }
 
+a {
+    color: #a3a3a3;
+    text-decoration: none;
+}
+
 /* Tag generali container */
 
 #container {
@@ -152,10 +157,51 @@ h4 {
 
 #center {
     height: calc(100% - 80px);
-    margin-top: 80px;
+    margin: 80px 20px 0 20px;
+
 }
 
+.menu_center {
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.menu_center ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.green {
+    border-bottom: 2px solid #adff2f;
+}
+
+#list {
+    margin: 10px 0;
+}
+
+#list h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.recently {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.music {
+    border: 1px solid black;
+    margin: 10px 5px;
+    width: calc(100% / 5);
+    height: 180px;
+    background-color: green;
+}
 
 
 
