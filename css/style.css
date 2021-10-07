@@ -261,7 +261,7 @@ main {
 }
 
 .footer-sx {
-    width: 100%;
+    width: 35%;
     display: flex;
     justify-content: flex-start;
     padding: 15px;
@@ -435,6 +435,12 @@ a:hover, .far:hover{
 
     /* tag footer */
 
-    
+    .footer-center .icon i {
+        font-size: 18px ;
+    }
+
+    .bar-audio {
+        width: 40%;
+    }
 
  }
