@@ -542,6 +542,10 @@ a:hover, .far:hover{
         display: block;
     }
 
+    .menu {
+        margin-top: 40px;
+    }
+
     .menu ul li a span {
         display: none;
     }
@@ -556,6 +560,7 @@ a:hover, .far:hover{
 
     .download {
         border: none;
+        display: initial;
     }
 
     .download a {
@@ -567,18 +572,30 @@ a:hover, .far:hover{
 
     }
 
+    .account {
+        display: initial;
+    }
+
+    #aside_right, #above {
+        width: calc(100% - 20px);
+    }
+
     .upgrade {
         padding: 2px 18px;
         font-size: 10px;
+        margin: auto 45px;
     }
 
     main .menu_center {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .green {
         border-bottom: 1px solid #adff2f;
     }
 
+    .footer-sx .text {
+        font-size: 0.71rem;
+    }
 
  }
