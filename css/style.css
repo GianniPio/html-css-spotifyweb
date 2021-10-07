@@ -234,6 +234,11 @@ main {
     margin-top: 10px;
 }
 
+#aside_right img {
+    content: ;
+
+}
+
 /* Tag geneali footer */
 
 #footer {
@@ -310,10 +315,14 @@ main {
     background-color: #c1c1c1;
     height: 100%;
     width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .bar, .bar-playback, .bar-audio, .audio {
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .footer-dx {
@@ -330,15 +339,32 @@ main {
     margin: 0 15px
 }
 
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color:#c1c1c1 ;
+    border-radius: 50%;
+    display: none;
+}
+
 /* Tag per hover  */
 
-a:hover {
+a:hover, .far:hover {
     color: white;
 }
 
-img:hover {
+.music:hover img, .artist:hover img {
     width: 100%;
     opacity: 0.5;
-    display: relative;
 }
+
+.bar:hover .bar-playback, .bar-audio:hover .audio {
+    background-color: rgb(21, 226, 21);
+}
+
+.bar:hover .circle, .bar-audio:hover .circle {
+    display: block;
+}
+
+
 
