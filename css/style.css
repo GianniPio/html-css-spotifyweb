@@ -209,6 +209,23 @@ main {
     cursor: pointer;
 }
 
+.image {
+    position: relative;
+    width: 100%;
+}
+
+
+.image span {
+    position: absolute;
+    left: 52%;
+    bottom: 28%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    display: none;
+
+}
+
 .list .album .music img {
     width: 100%;
     margin-bottom: 20px;
@@ -231,11 +248,6 @@ main {
     font-family: sans-serif;
     font-weight: bold;
     margin-top: 10px;
-}
-
-#aside_right img {
-    content: ;
-
 }
 
 /* Tag geneali footer */
@@ -374,4 +386,6 @@ a:hover, .far:hover {
     cursor: pointer;
 }
 
-
+.music:hover .image span, .artist:hover .image span {
+    display: block;
+}
