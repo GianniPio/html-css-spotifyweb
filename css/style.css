@@ -153,7 +153,7 @@ a {
     border-radius: 25px;
     padding: 5px 30px;
     cursor: pointer;
-    margin: auto 20px;
+    margin: auto 30px;
     line-height: 28px;
     font-weight: bolder;
     font-size: 12px;
@@ -165,7 +165,6 @@ a {
 main {
     height: calc(100% - 80px);
     margin: 80px 20px 0 20px;
-
 }
 
 .menu_center {
@@ -349,6 +348,10 @@ main {
 
 /* Tag per hover  */
 
+.upgrade:hover {
+    transform: scale(1.1);
+}
+
 a:hover, .far:hover {
     color: white;
 }
@@ -366,5 +369,9 @@ a:hover, .far:hover {
     display: block;
 }
 
+.text:hover h4{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
 
 
