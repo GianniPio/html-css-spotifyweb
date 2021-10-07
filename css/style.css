@@ -267,7 +267,7 @@ main {
 }
 
 .footer-sx {
-    width: 35%;
+    width: calc(100% / 3);
     display: flex;
     justify-content: flex-start;
     padding: 15px;
@@ -301,11 +301,11 @@ main {
 }
 
 .footer-center {
-    width: 100%;
+    width: calc(100% / 3);
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column ;
+    flex-direction: column;
 }
 
 .footer-center .icon i {
@@ -347,7 +347,7 @@ main {
 }
 
 .footer-dx {
-    width: 100%;
+    width: calc(100% / 3);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -505,7 +505,6 @@ a:hover, .far:hover{
         margin: 3px 9px;
 
     }
-
 
     .footer-dx i {
         font-size: 11px;
