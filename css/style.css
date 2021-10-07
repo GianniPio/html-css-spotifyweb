@@ -218,8 +218,8 @@ main {
 
 .image span {
     position: absolute;
-    left: 52%;
-    bottom: 28%;
+    left: 51%;
+    bottom: 26%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 50px;
@@ -395,6 +395,8 @@ a:hover, .far:hover{
 
  @media all and (max-width: 878px) {
 
+    /* tag main */
+
     main .menu_center {
         text-align: center;
         line-height: 200%;
@@ -402,9 +404,37 @@ a:hover, .far:hover{
         font-size: 15px;
     }
 
+    .list h1 {
+        font-size: 25px;
+    }
 
+    .album {
+        flex-wrap: wrap;
+    }
 
+    .music, .artist {
+        width: calc(87% / 4);
+    }
 
+    .list h3, .artist h3 {
+        font-size: 17px;
+    }
 
+    .list h4, .artist h4 {
+        font-size: 12px;
+    }
+
+    .music .image span {
+        bottom: 20%;
+    }
+
+    .artist .image span {
+        left: 50%;
+        bottom: 5%;
+    }
+
+    /* tag footer */
+
+    
 
  }
