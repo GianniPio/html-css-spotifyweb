@@ -173,6 +173,7 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 14px;
 }
 
 .menu_center ul li {
@@ -364,7 +365,7 @@ main {
     transform: scale(1.1);
 }
 
-a:hover, .far:hover {
+a:hover, .far:hover{
     color: white;
 }
 
@@ -389,3 +390,21 @@ a:hover, .far:hover {
 .music:hover .image span, .artist:hover .image span {
     display: block;
 }
+
+/* tag responsive (878 x 1095) */
+
+ @media all and (max-width: 878px) {
+
+    main .menu_center {
+        text-align: center;
+        line-height: 200%;
+        margin: 100px 0 40px 0;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+ }
