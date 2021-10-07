@@ -50,6 +50,10 @@ a {
     margin: 10px 0;
 }
 
+.logo .logo-small {
+    display: none;
+}
+
 .menu {
     height: 11%;
 }
@@ -512,28 +516,69 @@ a:hover, .far:hover{
         width: 55%;
     }
 
+ }
 
 
+ /* tag responsive (552 x 1095) */
 
+ @media all and (max-width:552px) {
 
+    #aside_left {
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 
+    #aside_left .logo {
+        width: 220%;
+    }
 
+    .logo .logo-full {
+        display: none;
+    }
 
+    .logo .logo-small {
+        display: block;
+    }
 
+    .menu ul li a span {
+        display: none;
+    }
 
+    .selected {
+        border: none;
+    }
 
+    .playlist {
+        display: none;
+    }
 
+    .download {
+        border: none;
+    }
 
+    .download a {
+        display: none;
+    }
+    
+    .account div:last-child{
+        display: none;
 
+    }
 
+    .upgrade {
+        padding: 2px 18px;
+        font-size: 10px;
+    }
 
+    main .menu_center {
+        font-size: 9px;
+    }
 
-
-
-
-
-
-
+    .green {
+        border-bottom: 1px solid #adff2f;
+    }
 
 
  }
